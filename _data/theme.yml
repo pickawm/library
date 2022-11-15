@@ -24,7 +24,7 @@ browse-buttons: true # true/false, adds previous/next arrows to item pages
 # SUBJECTS PAGE
 #
 subjects-fields: subject;creator # set the field to be featured in the cloud (if left blank, none will be generated)
-subjects-min: 3 # min size for subject cloud, too many terms = slow load time!
+subjects-min: 10 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g. boxers;boxing
 
 ##########
@@ -77,7 +77,7 @@ navbar-background: bg-dark
 # BOOTSWATCH THEMES
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Enter one of the following options below: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: litera # leave blank or comment out for plain bootstrap
+bootswatch: zephyr # leave blank or comment out for plain bootstrap
 
 # THEME FONTS
 base-font-size: 1.2em
